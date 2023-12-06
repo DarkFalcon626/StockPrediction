@@ -1,0 +1,22 @@
+{
+	"Data":{
+		"period": "5y",
+		"freq": "1d",
+		"lookback": 5,
+		"train_split": 0.8,
+		"predict": 5
+	},
+	
+	"Net":{
+		"input_dim": 2,
+		"hidden_dim": 64,
+		"num_layers": 1,
+		"output_dim": 2
+	},
+	
+	"exec":{
+		"lr": 0.01,
+		"num_epochs": 200,
+		"display_epochs": 10
+	}
+}
